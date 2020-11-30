@@ -157,6 +157,7 @@ body {
 
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
+    cursor: pointer;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
@@ -619,6 +620,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member img {
+    position: relative;
+    top: 20px;
     width: 225px;
     height: 225px;
     border: 7px solid white;
@@ -673,6 +676,8 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
+    position: relative;
+    bottom: 10px;
     font-size: 20px;
     line-height: 40px;
     display: block;
@@ -705,14 +710,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     font-weight: 700;
     color: white;
     border-color: #cfc9df;
-    background-color: #cfc9df;
+    background-color: #410225;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 
 .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #b48b01;
+    border-color: #410225;
     background-color: #cfc9df;
 }
 
@@ -725,13 +730,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
     color: white;
     border-color: #410225;
-    background-color: #cfc9df;
+    background-color: #410225;
 }
 
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:focus, .open>.btn-primary.dropdown-toggle:hover {
     color: white;
     border-color: #410225;
-    background-color: #cfc9df;
+    background-color: #410225;
 }
 
 .btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
@@ -805,7 +810,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin-left: 0;
 }
 
+.rowproj {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .container {
     padding-right: 0;
     padding-left: 0;
+}
+
+.me {
+    background-color: #cfc9dfd2;
 }
