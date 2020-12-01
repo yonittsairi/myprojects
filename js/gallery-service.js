@@ -8,9 +8,9 @@ function createProjectsLib() {
     var projects = loadFromStorage(KEY)
     if (!projects || projects.length === 0) {
         projects = [
-            createProject('Minesweeper', 'online-game', 'JS HTML CSS', 'gitADD', '01-thumbnail.jpg', '11/2020', 'me', 'web'),
-            createProject('Book Shop', 'online-lib', 'JS HTML CSS', 'gitADD', '02-thumbnail.jpg', '11/2020', 'me', 'web'),
-            createProject('safe content', 'web', 'JS HTML CSS', 'gitADD', '03-thumbnail.jpg', '11/2020', 'me', 'web'),
+            createProject('Minesweeper', 'online-game', 'JS HTML CSS', 'gitADD', '1.png', '11/2020', 'me', 'web'),
+            createProject('Book Shop', 'online-lib', 'JS HTML CSS', 'gitADD', '2.png', '11/2020', 'me', 'web'),
+            createProject('safe content', 'web', 'JS HTML CSS', 'gitADD', '3.png', '11/2020', 'me', 'web'),
         ]
 
     }
@@ -61,3 +61,4 @@ function getProjectById(projectId) {
     });
     return project
 }
+

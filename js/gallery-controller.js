@@ -58,5 +58,8 @@ function onFormSubmit() {
     var subject = $('input[id=subject]').val()
     var body = `from  ${email}  \n` + $('textarea[id=message]').val()
     window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=yonit@example.com&su=${subject}&body=${body}`)
+    email = $('input[id=email]').val('')
+    subject = $('input[id=subject]').val('')
+    body = $('textarea[id=message]').val('')
 }
 
